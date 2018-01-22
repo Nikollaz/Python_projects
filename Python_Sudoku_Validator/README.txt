@@ -1,0 +1,1 @@
+Basic Sudoku validator project done using Python
