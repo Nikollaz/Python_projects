@@ -13,17 +13,20 @@ from classes.quicksort_utils import quicksort
 
 if __name__ == "__main__":
 
+    min_number_limit = -1000
+    max_number_limit = 1000
+
     array = [
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100),
-        random.randint(-100, 100)
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit),
+        random.randint(min_number_limit, max_number_limit)
     ]
 
     print quicksort(array)
